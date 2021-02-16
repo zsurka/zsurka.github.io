@@ -1,3 +1,6 @@
+layout: page
+title: Krrunchy Architecture
+
 # Krrunchy Architecture
 
 Krrunchy will be a microservices based web application that can be accessed by Web and Mobile UI clients. 

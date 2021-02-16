@@ -1,3 +1,6 @@
+layout: page
+title: Krrunchy Functional Specification
+
 # Krrunchy Functional Specification
 
 ## Objective
