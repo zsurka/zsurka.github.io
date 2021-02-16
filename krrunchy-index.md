@@ -1,3 +1,7 @@
+layout: page
+title: "Krrunchy"
+permalink: /krrunchy/
+
 # Krrunchy
 Food delivery application for my local community
 
