@@ -1,6 +1,8 @@
+---
 layout: page
 title: Krrunchy
 permalink: /krrunchy/
+---
 
 # Krrunchy
 Food delivery application for my local community
@@ -14,17 +16,12 @@ In today’s world, may of us live away from our homes for work and many are dep
 
 
 ## Proposed Solution
-A microservices based web application that can be accessed by Web and Mobile UI clients. The registration of the subscribers will be controlled by the kitchen admin and they will be authenticated by a third party provider. The subscribers will able to 
-1. Check daily and weekly menus
-2. Check blackout dates (when food will not be delivered)
-3. Request customization or cancellation
-4. Share feedback
+A microservices based web application that can be accessed by Web and Mobile UI clients. The registration of the subscribers will be controlled by the kitchen admin and they will be authenticated by a third party provider. The clients should have a simple interface that will be convenient for users of all sections of the society - e.g. senior citiens.
 
-Admins will he able to 
-1. Publish menus
-2. Publish blackout dates
-3. See customizations on a per subscriber basis 
-4. Read feedback
-5. Get statistics of the subscriber base
+Read these pages for more details
 
-We propose an easy interface that will be convenient for users who are not very used to using such applications as well - e.g. senior citiens.
+[Architecture](/krrunchy-arch/)
+ 
+[Functional Specification](/krrunchy-fspec/)
+ 
+

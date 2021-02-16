@@ -1,18 +1,47 @@
+---
 layout: page
 title: Krrunchy Functional Specification
+permalink: /krrunchy-fspec/
+---
 
 # Krrunchy Functional Specification
 
 ## Objective
 To help my community kitchen resolve their current pain areas and provide them a sustainable and customizable solution. To understand the details of running a community kitchen and design a solution for them.
 
-## User Personas
-1. Kitchen Administrator - who defines menus and blackout dates and manages the day to day operations.
-2. Subscriber - who is the recipient of the food.
-3. Delivery Person - who is responsible to pack the food and deliver it to the subscriber.
-4. System Administrator - super user of the application who will analyse trends and drive the IT side of this community kitchen. Will deploy the application and control its access. Register users and manage their access levels.
-
 ![activitydiagram](images/ActivityDiagram.png)
+
+## User Personas
+
+**Kitchen Administrator** - who defines menus and blackout dates and manages the day to day operations.
+Admins will be able to 
+1. Publish menus
+2. Publish blackout dates
+3. See customizations on a per subscriber basis 
+4. Read feedback
+5. Get statistics of the subscriber base
+
+
+**Subscriber** - who is the recipient of the food.
+The subscribers will able to 
+1. Check daily and weekly menus
+2. Check blackout dates (when food will not be delivered)
+3. Request customization or cancellation
+4. Share feedback
+
+
+**Delivery Person** - who is responsible to pack the food and deliver it to the subscriber.
+The subscribers will able to
+1. See deliveries of the day
+
+**System Administrator** - super user of the application who will analyse trends and drive the IT side of this community kitchen.
+1. Will deploy the application and configure updates.
+2. Grant and revoke its access. 
+3. Register users and deregisters when needed.
+4. Responsible for security and availability.
+5. Resolve technical issues of subscribers and kitchen staff
+
+
 
 ## Terms
 1. Menu - fixed set of food items to be delivered

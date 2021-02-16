@@ -1,5 +1,8 @@
+---
 layout: page
 title: Krrunchy Architecture
+permalink: /krrunchy-arch/
+---
 
 # Krrunchy Architecture
 
