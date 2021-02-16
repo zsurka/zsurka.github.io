@@ -1,5 +1,5 @@
 layout: page
-title: "Krrunchy"
+title: Krrunchy
 permalink: /krrunchy/
 
 # Krrunchy
