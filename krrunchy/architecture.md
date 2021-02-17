@@ -15,7 +15,7 @@ Krrunchy will be a microservices based web application that can be accessed by W
 - The authentication will be based on OAuth2 framework using Google as the authentication provider
 - The microservices will be accessible via an API gateway.
 - Each microservice will have its own unit tests
-- There will be 2 types of clients - Web based UI and an Android based UI. These clients will have theor own unit tests.
+- There will be 2 types of clients - Web based UI and an Android based UI. These clients will have their own unit tests.
 
 ## Technology Choices
 1. PostgreSQL for al the DBs
@@ -23,8 +23,13 @@ Krrunchy will be a microservices based web application that can be accessed by W
 3. Docker for containerization
 4. Apache Kafka for event bus
 5. Angular for the web client
-6. Postman and REST-Assured for API testing
+6. REST-Assured for API testing
 7. Android for Mobile Client
+8. API Gateway (yet to be finalized)
+
+## Tools
+1. Eclipse IDE for Springboot development.
+2. Postman for API testing
 
 ## Microservices
 
@@ -46,7 +51,7 @@ Krrunchy will be a microservices based web application that can be accessed by W
   3. Get the menu of a given date
 **Dependencies** - Menu Service
 
-### Scheduling Service 
+### Customization Service 
 To be analysed.
 
  This service will be responsible to 
@@ -54,3 +59,21 @@ To be analysed.
   2. Retrieve customizations for given user (admin access only)
   3. Retrieve all customizations for a given date. (admin access only)
   **Dependencies** - Menu Service, Scheduling Service
+
+  ### User Authentication Service
+  To be analysed.
+  This service will be responsible to generate and validate OAuth2 tokens for user interaction.
+
+  ## Clients
+
+  ### Web UI Client - [Repository](https://github.com/zsurka/krrunchy-client-angular)
+  
+  This is an Angular based application to interact with the Krrunchy Backend.
+  - Tools - Visual Studio Code
+  - Nodejs and Angular
+  - Unit tests to be written using Jasmine or Karma. 
+
+  ### Mobile Client (Android) [Repository] (https://github.com/zsurka/krrunchy-client-android)
+
+  This is a mobile client created using Android / Java using Android Studio. 
+
